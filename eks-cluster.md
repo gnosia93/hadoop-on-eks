@@ -81,7 +81,7 @@ ip-192-168-35-245.ap-northeast-2.compute.internal   Ready    <none>   3m17s   v1
 
 클러스터, 노드 및 파드 별로 메트릭 정보와 로그 정보를 수지하기 위해서 cloudwatch 에이전트와 C 언어로 강량화 구현된 fluent bit 에이전트를 파드 형태로 설치할 것이다.  
 ```
-$ ClusterName=spark-on-eks
+$ ClusterName=hadoop-on-eks
 RegionName=ap-northeast-2
 FluentBitHttpPort='2020'
 FluentBitReadFromHead='Off'
