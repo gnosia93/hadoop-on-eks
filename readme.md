@@ -3,6 +3,7 @@
 * volume
 * daemonset
 * headless service for datanode to find name node of hadoop
+* https://kubernetes.io/ko/docs/concepts/scheduling-eviction/assign-pod-node/#nodename
 
 ## 참고자료 ##
 
