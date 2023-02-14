@@ -57,10 +57,6 @@ VPC 를 비롯한 서브넷, 시큐리티 그룹 등과 같은 AWS 리소스가 
 $ eksctl delete cluster -f cluster.yaml
 ```
 
-
-
-
-
 ### 5. 클러스터 생성 확인 ###
 ```
 $ kubectl config get-contexts
@@ -73,9 +69,7 @@ NAME                                                STATUS   ROLES    AGE     VE
 ip-192-168-22-60.ap-northeast-2.compute.internal    Ready    <none>   3m15s   v1.24.9-eks-49d8fe8
 ip-192-168-33-80.ap-northeast-2.compute.internal    Ready    <none>   4m9s    v1.24.9-eks-49d8fe8
 ip-192-168-35-245.ap-northeast-2.compute.internal   Ready    <none>   3m17s   v1.24.9-eks-49d8fe8
-
-
-
+```
 
 ### 6. 성능 메트릭 및 로그 수집 ###
 * https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/deploy-container-insights-EKS.html
