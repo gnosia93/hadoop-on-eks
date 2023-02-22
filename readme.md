@@ -11,3 +11,4 @@
 * https://blog.geunho.dev/posts/hadoop-docker-test-env-hdfs/
 * https://www.databricks.com/session/hdfs-on-kubernetes-lessons-learned
 * https://www.leafcats.com/223
+* [하둡 프로그래밍 /w InteliJ](https://www.youtube.com/watch?v=XpUO3Oo4nls)
